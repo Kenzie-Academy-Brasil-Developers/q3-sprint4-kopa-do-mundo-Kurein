@@ -1,5 +1,5 @@
 CREATE TABLE IF NOT EXISTS kopas(
-	id BIGSERIAL primary key,
+	id BIGSERIAL PRIMARY KEY,
 	selecao VARCHAR(120) unique,
 	qnt_copas INTEGER
 );
